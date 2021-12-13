@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body style="background-color:'blue'; height:100vh; ">
+
+    <div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=AUG8FNTWDAI0M522pHVAh7h5s36wpS3PqEoDJg7Tq_Ro7GneDWKojGaFv5ATGolQO5WEU8UbBLXy6P82&currency=USD"></script>
+
+  <script type="text/javascript">
+  initPayPalButton();
+  function initPayPalButton() {
+    alert(JSON.stringify(paypal.Buttons))
+    paypal.Buttons({
+      style: {
+        shape: 'rect',
+        color: 'gold',
+        layout: 'vertical',
+        label: 'paypal',
+        
+      },
+      createOrder: function(data, actions) {
+        return actions.order.create({
+          purchase_units: [{"description":"AGS plan subscription", "reference_id":"reference_id__IIIEIEI#", "amount":{"currency_code":"USD","value":100}}]
+        });
+      },
+  
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(details) {
+          window.ReactNativeWebView.postMessage(JSON.stringify(details))
+        });
+      },
+  
+      onError: function(err) {
+        window.ReactNativeWebView.postMessage(JSON.stringify(err))
+      }
+    }).render('#paypal-button-container');
+  }
+  </script>
+    </body>
+</html>

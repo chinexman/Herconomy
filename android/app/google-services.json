@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "470433460061",
+    "firebase_url": "https://ags-tribe-app.firebaseio.com",
+    "project_id": "ags-tribe-app",
+    "storage_bucket": "ags-tribe-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470433460061:android:ee0747bbb654858eba42b4",
+        "android_client_info": {
+          "package_name": "com.itskillscenter.agsnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470433460061-28uk96uadc4a05jvfkegir0ibsdi78se.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itskillscenter.agsnew",
+            "certificate_hash": "6c1552bbffe605f6452d88b6448a8c0ca07eaf41"
+          }
+        },
+        {
+          "client_id": "470433460061-5aookol460l1qt77r02doc9u8ic3ab1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhdRFAUr3rW2JrA9ojxwxbnp_iZpnf5Xo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470433460061-5aookol460l1qt77r02doc9u8ic3ab1h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "470433460061-mr84bi6h93ede7v4hj7e3ji2l9da9rkg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.itskillscenter.agsnew"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

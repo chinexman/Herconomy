@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "771503757020",
+    "firebase_url": "https://agstribe-6b393.firebaseio.com",
+    "project_id": "agstribe-6b393",
+    "storage_bucket": "agstribe-6b393.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771503757020:android:5fc33c126ba14b87364619",
+        "android_client_info": {
+          "package_name": "com.itskillscenter.agsnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771503757020-ononqftth1hnoujj6kq48qjahj9uq3dk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itskillscenter.agsnew",
+            "certificate_hash": "6c1552bbffe605f6452d88b6448a8c0ca07eaf41"
+          }
+        },
+        {
+          "client_id": "771503757020-73sdnfm4kn4ii2aih7shqo6ia221i54q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOGgkbyEh06KuBVH6R1Mxdi5nJaMACzgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771503757020-73sdnfm4kn4ii2aih7shqo6ia221i54q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
